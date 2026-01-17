@@ -27,7 +27,6 @@ const features = [
 
 const stats = [
   { label: "Queries Today", value: "124" },
-  { label: "Avg Response Time", value: "89ms" },
   { label: "Success Rate", value: "99.2%" },
 ];
 
@@ -50,7 +49,7 @@ export default function Index() {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 animate-slide-in" style={{ animationDelay: "100ms" }}>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 animate-slide-in" style={{ animationDelay: "100ms" }}>
           {stats.map((stat) => (
             <Card key={stat.label} className="shadow-elevated border-border/50">
               <CardContent className="pt-6">
