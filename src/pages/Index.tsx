@@ -41,7 +41,7 @@ export default function Index() {
             <span className="text-sm font-medium text-primary">Welcome back</span>
           </div>
           <h1 className="text-3xl font-bold text-foreground mb-2">
-            Good morning, John
+            Good morning, Ramesh
           </h1>
           <p className="text-muted-foreground text-lg">
             Your data platform is ready. Start querying or explore your analytics.
