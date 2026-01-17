@@ -45,10 +45,10 @@ export function Header() {
               <Avatar className="h-8 w-8">
                 <AvatarImage src="" />
                 <AvatarFallback className="bg-primary/10 text-primary text-xs font-medium">
-                  JD
+                  R
                 </AvatarFallback>
               </Avatar>
-              <span className="hidden sm:inline text-sm font-medium">John Doe</span>
+              <span className="hidden sm:inline text-sm font-medium">Ramesh</span>
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end" className="w-56">

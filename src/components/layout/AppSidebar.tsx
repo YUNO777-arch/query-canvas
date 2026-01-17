@@ -34,7 +34,7 @@ export function AppSidebar() {
             <div className="h-8 w-8 rounded-lg gradient-primary flex items-center justify-center">
               <Database className="h-4 w-4 text-primary-foreground" />
             </div>
-            <span className="font-semibold text-foreground">QueryHub</span>
+            <span className="font-semibold text-foreground">VyaaparIntel</span>
           </div>
         )}
         <SidebarTrigger className="ml-auto text-sidebar-muted hover:text-foreground transition-colors">
